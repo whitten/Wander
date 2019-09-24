@@ -32,8 +32,8 @@ wandglb.o: wandglb.c wanddef.h
 
 wandsys.o: wandsys.c wanddef.h
 
-Wander.txt: wander.nr Wander.mac
-	nroff wander.nr >$@
+Wander.txt: Wander.nr Wander.mac
+	nroff Wander.nr >$@
 
 WanderExportReadMe.txt: WanderXRM.txt
 	cp $? $@
